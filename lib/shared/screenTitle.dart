@@ -22,7 +22,7 @@ class ScreenTitle extends StatelessWidget {
           return Opacity(
             opacity: _val,
             child: Padding(
-              padding: EdgeInsets.only(top: _val * 25),
+              padding: EdgeInsets.only(top: _val * 26),
               child: child,
             ),
           );
